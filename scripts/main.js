@@ -206,17 +206,17 @@ function generateScore (result) {
 
     if (result > 90) {
         return 7;
-    } else if (result > 75) {
+    } else if (result > 85) {
         return 6;
-    } else if (result > 65) {
+    } else if (result > 75) {
         return 5;
-    } else if (result > 45) {
+    } else if (result > 60) {
         return 4;
-    } else if (result > 30) {
+    } else if (result > 35) {
         return 3;
-    } else if (result > 15) {
+    } else if (result > 20) {
         return 2;
-    } else if (result > 5) {
+    } else if (result > 10) {
         return 1;
     } else {
         return 0;
