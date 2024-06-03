@@ -204,11 +204,11 @@ function simMatches (clubs, fixtures, currentWeek, currentSeason) {
 
 function generateScore (result) {
 
-    if (result > 75) {
+    if (result > 90) {
         return 7;
-    } else if (result > 70) {
+    } else if (result > 75) {
         return 6;
-    } else if (result > 60) {
+    } else if (result > 65) {
         return 5;
     } else if (result > 45) {
         return 4;
